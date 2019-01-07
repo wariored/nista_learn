@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 
 
 def parameters_initializer(shape):
@@ -18,7 +19,8 @@ def compute_gradient(x, y, iterations=1000, learning_rate=0.001, show=False):
     x = np.concatenate((ones, x), axis=1)
     x = x / x.mean(axis=0)
     y = y / y.mean(axis=0)
-    y = y.reshape((len(y), 1))
+    y = y.reshape((-1, 1))
+
     theta_transpose = theta.T
 
     cost_list = []
@@ -33,7 +35,14 @@ def compute_gradient(x, y, iterations=1000, learning_rate=0.001, show=False):
             if show:
                 print(f"After {i} iterations | cost: {cost}")
             cost_list.append(cost)
+        if cost <= 0.000000001:
+            break
     return theta_transpose, cost_list
+
+
+def concatenate_with_ones_vector(x):
+    ones = np.ones([x.shape[0], 1])
+    return np.concatenate((ones, x), axis=1)
 
 
 def score(y_a, y_b):

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af364fd-0260-4a18-9cac-dabbe843537a" name="Default Changelist" comment="" />
+    <list default="true" id="9af364fd-0260-4a18-9cac-dabbe843537a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nista_learn/regressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/nista_learn/regressions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nista_learn/regressions_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/nista_learn/regressions_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,54 +13,59 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/nista_learn$nista_learn.coverage" NAME="nista_learn Coverage Results" MODIFIED="1546809676838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nista_learn$nista_learn.coverage" NAME="nista_learn Coverage Results" MODIFIED="1546832726101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1240509035">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="1" />
+          <entry key="csv" value="3" />
+          <entry key="md" value="1" />
           <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="1" />
+          <entry key="CSV" value="3" />
+          <entry key="Markdown" value="1" />
           <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="123" />
+          <entry key="csv" value="3" />
           <entry key="dummy" value="11" />
-          <entry key="py" value="5080" />
+          <entry key="py" value="6892" />
           <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSV" value="3" />
           <entry key="PLAIN_TEXT" value="117" />
-          <entry key="Python" value="5203" />
+          <entry key="Python" value="7015" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="238">
+              <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
-                <marker date="1546808911000" expanded="true" signature="121:123" ph="..." />
+                <marker date="1546832726000" expanded="true" signature="121:123" ph="..." />
               </folding>
             </state>
           </provider>
@@ -65,13 +74,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nista_learn/regressions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-174">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="15">
+              <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
               <folding>
-                <marker date="1546808284000" expanded="true" signature="107:112" ph="..." />
-                <marker date="1546808284000" expanded="true" signature="986:987" ph="..." />
-                <marker date="1546808284000" expanded="true" signature="986:991" ph="..." />
+                <element signature="e#0#47#0" expanded="true" />
+                <marker date="1546831595000" expanded="true" signature="139:144" ph="..." />
+                <marker date="1546831595000" expanded="true" signature="1013:1014" ph="..." />
+                <marker date="1546831595000" expanded="true" signature="1013:1018" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="213">
+              <caret line="214" column="14" selection-start-line="214" selection-start-column="14" selection-end-line="214" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -81,15 +100,34 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nista_learn/regressions_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+            <state relative-caret-position="109">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
-                <marker date="1546809752000" expanded="true" signature="1062:1080" ph="..." />
-                <marker date="1546809752000" expanded="true" signature="1145:1150" ph="..." />
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1546832563000" expanded="true" signature="1226:1229" ph="..." />
+                <marker date="1546832563000" expanded="true" signature="1265:1268" ph="..." />
+                <marker date="1546832563000" expanded="true" signature="1332:1337" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-620" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -112,13 +150,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/nista_learn/linears.py" />
         <option value="$PROJECT_DIR$/nista_learn/regressions.py" />
-        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/train.csv" />
         <option value="$PROJECT_DIR$/nista_learn/regressions_functions.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -243,24 +285,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.328594" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.328594" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.329653" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3301738" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.41232228" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="SciView" order="0" weight="0.3602585" />
+      <window_info active="true" anchor="right" id="SciView" order="0" visible="true" weight="0.3602585" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" x="0" y="0" width="270" height="526" id="Documentation" order="2" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
@@ -275,6 +318,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nista_learn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/50_startups.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state>
@@ -282,39 +328,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nista_learn/regressions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-            <marker date="1546808911000" expanded="true" signature="121:123" ph="..." />
+            <marker date="1546831595000" expanded="true" signature="139:144" ph="..." />
+            <marker date="1546831595000" expanded="true" signature="1013:1014" ph="..." />
+            <marker date="1546831595000" expanded="true" signature="1013:1018" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nista_learn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nista_learn/regressions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <marker date="1546808284000" expanded="true" signature="107:112" ph="..." />
-            <marker date="1546808284000" expanded="true" signature="986:987" ph="..." />
-            <marker date="1546808284000" expanded="true" signature="986:991" ph="..." />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/train.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="213">
+          <caret line="214" column="14" selection-start-line="214" selection-start-column="14" selection-end-line="214" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nista_learn/regressions_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="109">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
-            <marker date="1546809752000" expanded="true" signature="1062:1080" ph="..." />
-            <marker date="1546809752000" expanded="true" signature="1145:1150" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1546832563000" expanded="true" signature="1226:1229" ph="..." />
+            <marker date="1546832563000" expanded="true" signature="1265:1268" ph="..." />
+            <marker date="1546832563000" expanded="true" signature="1332:1337" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1546832726000" expanded="true" signature="121:123" ph="..." />
           </folding>
         </state>
       </provider>
