@@ -13,10 +13,13 @@ def cost_function(loss, m):
     return np.sum(loss ** 2) / (2 * m)
 
 
-def compute_gradient_linear(x, y, iterations=1000, learning_rate=0.01, show=False):
+def compute_gradient_linear(x, y, iterations=1000, learning_rate=0.001, show=False, normalize=False):
     m = x.shape[0]
     theta, ones = parameters_initializer(x.shape)
     x = np.concatenate((ones, x), axis=1)
+    if normalize:
+        x = x / x.mean(axis=0)
+        y = y / y.mean(axis=0)
     y = y.reshape((-1, 1))
 
     theta_transpose = theta.T
@@ -44,13 +47,10 @@ def sigmoid(z):
     return sigma
 
 
-def compute_gradient_logistic(x, y, iterations=1000, learning_rate=0.01, show=False, normalize=False):
+def compute_gradient_logistic(x, y, iterations=1000, learning_rate=0.001, show=False):
     m = x.shape[0]
     theta, ones = parameters_initializer(x.shape)
     x = np.concatenate((ones, x), axis=1)
-    if normalize:
-        x = x / x.mean(axis=0)
-        y = y / y.mean(axis=0)
     y = y.reshape((-1, 1))
     theta_transpose = theta.T
 

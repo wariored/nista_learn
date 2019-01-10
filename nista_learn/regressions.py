@@ -60,11 +60,11 @@ class LinearRegression(Regression):
 
 
 class LogisticRegression(Regression):
-    def fit(self, x, y, iterations=1000, learning_rate=0.001, show=False, normalize=False):
+    def fit(self, x, y, iterations=1000, learning_rate=0.001, show=False):
         """Fitting data"""
         self.theta, self.cost_list = compute_gradient_logistic(x, y, iterations=iterations,
                                                                learning_rate=learning_rate,
-                                                               show=show, normalize=normalize)
+                                                               show=show)
         if len(self.cost_list) > 0:
             self.mse = self.cost_list[-1]
         self.iterations = iterations
