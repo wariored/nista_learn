@@ -48,15 +48,6 @@ class LinearRegression(Regression):
         plt.plot(x[:, 0], np.dot(x_plot, self.theta[:2]), "r-")
         plt.show()
 
-    def plot_cost(self):
-        """Show the cost values variation"""
-        import matplotlib.pyplot as plt
-        x_plot = range(100, self.iterations + 1, 100)
-        plt.xlabel('Iterations')
-        plt.ylabel('Cost')
-        plt.title('Cost variations')
-        plt.plot(x_plot, self.cost_list)
-        plt.show()
 
 
 class LogisticRegression(Regression):
@@ -78,3 +69,13 @@ class LogisticRegression(Regression):
         y_pred = sigmoid(y_pred)
         y_pred = np.where(y_pred < bound, 0, 1)
         return y_pred.T
+
+    def plot_model(self, x, y):
+        import seaborn as sns
+        x_plot = x[:, 0]
+        x_plot = x_plot.reshape((len(x_plot), 1))
+        x_plot = concatenate_with_ones_vector(x_plot)
+        y_plot = sigmoid(np.dot(x_plot, self.theta[:2]))
+        plt.plot(x[:, 0], y, "x")
+        sns.regplot(x=x[:, 0], y=y_plot, logistic=True)
+        plt.show()
