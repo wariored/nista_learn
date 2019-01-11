@@ -1,0 +1,9 @@
+README.md
+setup.py
+nista_learn/__init__.py
+nista_learn/regressions.py
+nista_learn/regressions_functions.py
+nista_learn.egg-info/PKG-INFO
+nista_learn.egg-info/SOURCES.txt
+nista_learn.egg-info/dependency_links.txt
+nista_learn.egg-info/top_level.txt

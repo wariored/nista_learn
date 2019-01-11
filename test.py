@@ -52,5 +52,5 @@ print(Y_test[20:28])
 print('---')
 print(y_pred)
 log_reg.plot_cost()
-log_reg.plot_model(X_train, Y_train)
+# log_reg.plot_model(X_train, Y_train)
 
