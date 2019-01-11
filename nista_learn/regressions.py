@@ -13,7 +13,6 @@ class Regression:
 
     def plot_cost(self):
         """Show the cost values variation"""
-        import matplotlib.pyplot as plt
         x_plot = range(100, self.iterations + 1, 100)
         plt.xlabel('Iterations')
         plt.ylabel('Cost')
@@ -47,7 +46,6 @@ class LinearRegression(Regression):
         plt.plot(x[:, 0], y, "x")
         plt.plot(x[:, 0], np.dot(x_plot, self.theta[:2]), "r-")
         plt.show()
-
 
 
 class LogisticRegression(Regression):

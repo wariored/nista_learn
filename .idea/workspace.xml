@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9af364fd-0260-4a18-9cac-dabbe843537a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/nista_learn/regressions.py" beforeDir="false" afterPath="$PROJECT_DIR$/nista_learn/regressions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/nista_learn$nista_learn.coverage" NAME="nista_learn Coverage Results" MODIFIED="1547170778177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nista_learn$nista_learn.coverage" NAME="nista_learn Coverage Results" MODIFIED="1547171065733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1240509035">
@@ -44,7 +43,7 @@
           <entry key="Python Console" value="142" />
           <entry key="csv" value="3" />
           <entry key="dummy" value="11" />
-          <entry key="py" value="8119" />
+          <entry key="py" value="8136" />
           <entry key="txt" value="106" />
         </counts>
       </usages-collector>
@@ -52,7 +51,7 @@
         <counts>
           <entry key="CSV" value="3" />
           <entry key="PLAIN_TEXT" value="117" />
-          <entry key="Python" value="8261" />
+          <entry key="Python" value="8278" />
         </counts>
       </usages-collector>
     </session>
@@ -63,10 +62,10 @@
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
-                <marker date="1547170436000" expanded="true" signature="141:178" ph="..." />
+                <marker date="1547171065000" expanded="true" signature="141:178" ph="..." />
               </folding>
             </state>
           </provider>
@@ -75,14 +74,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nista_learn/regressions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="88" column="45" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="45" />
+            <state relative-caret-position="203">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
-                <marker date="1547170720000" expanded="true" signature="127:588" ph="..." />
-                <marker date="1547170720000" expanded="true" signature="657:658" ph="..." />
-                <marker date="1547170720000" expanded="true" signature="1987:1988" ph="..." />
-                <marker date="1547170720000" expanded="true" signature="1987:3192" ph="..." />
+                <marker date="1547171284000" expanded="true" signature="127:548" ph="..." />
+                <marker date="1547171284000" expanded="true" signature="617:618" ph="..." />
+                <marker date="1547171284000" expanded="true" signature="1625:1626" ph="..." />
+                <marker date="1547171284000" expanded="true" signature="1625:2817" ph="..." />
               </folding>
             </state>
           </provider>
@@ -290,19 +289,19 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.35962147" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.35962147" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.3280757" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.30126184" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.30126184" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39905363" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info active="true" anchor="right" id="SciView" order="0" visible="true" weight="0.35379645" />
+      <window_info anchor="right" id="SciView" order="0" weight="0.35379645" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" x="0" y="0" width="270" height="526" id="Documentation" order="2" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
@@ -371,24 +370,24 @@
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-            <marker date="1547170436000" expanded="true" signature="141:178" ph="..." />
+            <marker date="1547171065000" expanded="true" signature="141:178" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nista_learn/regressions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="88" column="45" lean-forward="true" selection-start-line="87" selection-start-column="8" selection-end-line="88" selection-end-column="45" />
+        <state relative-caret-position="203">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-            <marker date="1547170720000" expanded="true" signature="127:588" ph="..." />
-            <marker date="1547170720000" expanded="true" signature="657:658" ph="..." />
-            <marker date="1547170720000" expanded="true" signature="1987:1988" ph="..." />
-            <marker date="1547170720000" expanded="true" signature="1987:3192" ph="..." />
+            <marker date="1547171284000" expanded="true" signature="127:548" ph="..." />
+            <marker date="1547171284000" expanded="true" signature="617:618" ph="..." />
+            <marker date="1547171284000" expanded="true" signature="1625:1626" ph="..." />
+            <marker date="1547171284000" expanded="true" signature="1625:2817" ph="..." />
           </folding>
         </state>
       </provider>
